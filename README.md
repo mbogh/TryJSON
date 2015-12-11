@@ -1,4 +1,10 @@
 # TryJSON
+[![Build Status](https://travis-ci.org/mbogh/TryJSON.svg)](https://travis-ci.org/mbogh/TryJSON)
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
+[![Pod version](http://img.shields.io/cocoapods/v/TryJSON.svg)](http://cocoadocs.org/docsets/TryJSON/) 
+[![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/mbogh/TryJSON/master/LICENSE)
+
+
 
 ## Installation
 

@@ -1,0 +1,5 @@
+osx_image: xcode7.2
+language: objective-c
+script:
+  - xctool -project TryJSON.xcodeproj -scheme TryJSON -sdk iphonesimulator
+  - xctool -project TryJSON.xcodeproj test -scheme TryJSON -sdk iphonesimulator
