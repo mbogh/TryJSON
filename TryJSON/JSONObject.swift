@@ -5,9 +5,7 @@
 
 import Foundation
 
-//
 // MARK: - JSONError Type
-//
 
 public enum JSONError: ErrorType, CustomStringConvertible {
     case KeyNotFound(key: JSONKeyType)
@@ -29,9 +27,7 @@ public enum JSONError: ErrorType, CustomStringConvertible {
     }
 }
 
-//
 // MARK: - JSONKeyType
-//
 
 public protocol JSONKeyType: Hashable {
     var stringValue: String { get }
@@ -43,9 +39,7 @@ extension String: JSONKeyType {
     }
 }
 
-//
 // MARK: - JSONValueType
-//
 
 public protocol JSONValueType {
     typealias ValueType = Self
@@ -62,9 +56,7 @@ extension JSONValueType {
     }
 }
 
-//
 // MARK: - JSONValueType Implementations
-//
 
 extension String: JSONValueType {}
 extension Int: JSONValueType {}
@@ -100,9 +92,7 @@ extension NSURL: JSONValueType {
     }
 }
 
-//
 // MARK: - JSONObjectConvertible
-//
 
 public protocol JSONObjectConvertible : JSONValueType {
     typealias ConvertibleType = Self

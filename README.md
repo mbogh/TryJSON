@@ -19,7 +19,7 @@ pod 'TryJSON'
 
 Morten Bøgh, morten@justabeech.com
 
-99.999% of the initial code has been written by @jarsen - [Protocol Oriented JSON in Swift](http://jasonlarsen.me/2015/10/16/no-magic-json-pt3.html)
+99.999% of the initial code has been written by [@jarsen](https://github.com/jarsen) - [Protocol Oriented JSON in Swift](http://jasonlarsen.me/2015/10/16/no-magic-json-pt3.html)
 
 ## License
 
