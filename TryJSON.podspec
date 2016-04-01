@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "TryJSON"
-  s.version          = "0.9.0"
+  s.version          = "0.9.1"
   s.summary          = "TryJSON oriented JSON"
   s.description      = <<-DESC
 Map JSON to objects via a protocol oriented approach
